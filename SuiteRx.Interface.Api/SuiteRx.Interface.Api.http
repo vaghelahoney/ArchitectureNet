@@ -1,0 +1,6 @@
+@SuiteRx.Interface.Api_HostAddress = http://localhost:5183
+
+GET {{SuiteRx.Interface.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

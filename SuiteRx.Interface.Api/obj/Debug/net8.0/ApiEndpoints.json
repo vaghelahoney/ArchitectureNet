@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "SuiteRx.Interface.Application.Dto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.RegistrationController",
+    "Method": "GetAllRegistration",
+    "RelativePath": "api/Registration/GetAllRegistration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.RegistrationController",
+    "Method": "Create",
+    "RelativePath": "api/Registration/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SuiteRx.Interface.Application.Dto.RegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SuiteRx.Interface.Api.props" />
+</Project>

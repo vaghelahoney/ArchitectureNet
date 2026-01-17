@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SuiteRx.Interface.Api.props" />
+</Project>
