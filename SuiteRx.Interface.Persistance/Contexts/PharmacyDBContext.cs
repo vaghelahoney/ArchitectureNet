@@ -19,6 +19,8 @@ namespace SuiteRx.Interface.Persistance.Contexts
             _configuration = configuration;
         }
 
+        
+
         public DbSet<Registration> Registration { get; set; }
 
 

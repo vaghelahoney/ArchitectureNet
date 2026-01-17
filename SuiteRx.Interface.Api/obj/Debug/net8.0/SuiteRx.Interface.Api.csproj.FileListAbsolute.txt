@@ -568,3 +568,15 @@ E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Inter
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.pdb
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.genruntimeconfig.cache
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Api\obj\Debug\net8.0\ref\SuiteRx.Interface.Api.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.csproj.AssemblyReference.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.AssemblyInfoInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.AssemblyInfo.cs
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.csproj.CoreCompileInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.sourcelink.json
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\refint\SuiteRx.Interface.Api.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Api\obj\Debug\net8.0\SuiteRx.Interface.Api.pdb

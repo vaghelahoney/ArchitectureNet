@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Dotnet\\ArchitectureNet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.domain\\entities\\hl7message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|solutionrelative:suiterx.interface.domain\\entities\\hl7message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.application\\dto\\hl7messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|solutionrelative:suiterx.interface.application\\dto\\hl7messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +87,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hl7Message.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:04:48.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HL7MessageDto.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:04:31.262Z",
+              "EditorCaption": ""
             }
           ]
         }

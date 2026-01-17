@@ -47,3 +47,12 @@ E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Inter
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.pdb
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.genruntimeconfig.cache
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Persistance\obj\Debug\net8.0\ref\SuiteRx.Interface.Persistance.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.csproj.AssemblyReference.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.AssemblyInfoInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.AssemblyInfo.cs
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.csproj.CoreCompileInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.sourcelink.json
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\refint\SuiteRx.Interface.Persistance.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.pdb
