@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Dotnet\\ArchitectureNet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.api\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|solutionrelative:suiterx.interface.api\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC4CDEB-11ED-4E33-AC66-03BADA38C5D1}|SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.persistance\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC4CDEB-11ED-4E33-AC66-03BADA38C5D1}|SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj|solutionrelative:suiterx.interface.persistance\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.domain\\repositories\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|solutionrelative:suiterx.interface.domain\\repositories\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.application\\services\\impl\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|solutionrelative:suiterx.interface.application\\services\\impl\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|solutionrelative:suiterx.interface.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|solutionrelative:suiterx.interface.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.domain\\entities\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|solutionrelative:suiterx.interface.domain\\entities\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.application\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|solutionrelative:suiterx.interface.application\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC4CDEB-11ED-4E33-AC66-03BADA38C5D1}|SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.persistance\\contexts\\pharmacydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC4CDEB-11ED-4E33-AC66-03BADA38C5D1}|SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj|solutionrelative:suiterx.interface.persistance\\contexts\\pharmacydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +115,120 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Api\\Controllers\\RegistrationController.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Api\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T11:23:01.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Services\\Impl\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Application\\Services\\Impl\\RegistrationService.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Services\\Impl\\RegistrationService.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Application\\Services\\Impl\\RegistrationService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwDYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T08:45:36.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\Repositories\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Persistance\\Repositories\\RegistrationRepository.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\Repositories\\RegistrationRepository.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Persistance\\Repositories\\RegistrationRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAArwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T08:45:29.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRegistrationRepository.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Repositories\\IRegistrationRepository.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Domain\\Repositories\\IRegistrationRepository.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Repositories\\IRegistrationRepository.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Domain\\Repositories\\IRegistrationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T08:45:09.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Registration.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Domain\\Entities\\Registration.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Registration.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Domain\\Entities\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T08:45:06.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Api\\Program.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Program.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:33:29.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Api\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:28:33.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Application\\ServiceCollectionExtensions.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Application\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:07:58.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PharmacyDBContext.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\Contexts\\PharmacyDBContext.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Persistance\\Contexts\\PharmacyDBContext.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\Contexts\\PharmacyDBContext.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Persistance\\Contexts\\PharmacyDBContext.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv2sAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:05:22.377Z"
             }
           ]
         }

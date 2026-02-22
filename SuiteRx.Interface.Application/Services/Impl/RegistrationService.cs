@@ -52,22 +52,20 @@ namespace SuiteRx.Interface.Application.Services.Impl
 
         public async Task<List<RegistrationDto>> GetAllRegistration()
         {
-           List<Registration> data = await _registrationRepository.GetAllRegistration();
-            RegistrationDto registrationdto = new RegistrationDto();
-            List<RegistrationDto> registrationdList = new List<RegistrationDto>();
-            for (int i = 0; i < data.Count(); i++)
-            {
-                registrationdto.Id = data[i].Id;
-                registrationdto.FullName = data[i].FullName;
-                registrationdto.Email = data[i].Email;
-                registrationdto.PhoneNumber = data[i].PhoneNumber;
-                registrationdto.IsActive = data[i].IsActive;
-                registrationdto.CreatedAt = data[i].CreatedAt;
-                registrationdto.Role = data[i].Role;
-                registrationdList.Add(registrationdto);
-            }
+            var data = await _registrationRepository.GetAllRegistration();
 
-            return registrationdList;
+            var registrationList = data.Select(x => new RegistrationDto
+            {
+                Id = x.Id,
+                FullName = x.FullName,
+                Email = x.Email,
+                PhoneNumber = x.PhoneNumber,
+                IsActive = x.IsActive,
+                CreatedAt = x.CreatedAt,
+                Role = x.Role
+            }).ToList();
+
+            return registrationList;
         }
     }
 }

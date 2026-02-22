@@ -28,12 +28,37 @@ namespace SuiteRx.Interface.Api.Controllers
         }
 
 
-
         [HttpPost("GetAllRegistration")]
         public async Task<ActionResult> GetAllRegistration()
         {
-            var data = await _registrationService.GetAllRegistration();
+
+            var name = "Prakash";
+            var submane = "prakash";
+
+            if (string.Equals(name,submane, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("same");
+            }
+
+            var profileTask = _registrationService.GetAllRegistration();
+            var ordersTask = GetOrdersAsync();
+
+            await Task.WhenAll(profileTask, ordersTask);
+
+            var data = await profileTask;
+            
+            if (data == null || !data.Any())
+            {
+                return NotFound("No registrations found.");
+            }
             return Ok(data);
+        }
+
+        private async Task<List<string>> GetOrdersAsync()
+        {
+            // Simulating an async operation
+            await Task.Delay(10); 
+            return new List<string> { "Order1", "Order2" };
         }
     }
 }

@@ -7,6 +7,7 @@ using SuiteRx.Interface.Domain.Entities;
 using SuiteRx.Interface.Persistance;
 using SuiteRx.Interface.Persistance.Contexts;
 using SuiteRx.Interface.Persistance.Seeders;
+using System.Diagnostics;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -46,8 +47,24 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
+// Program.cs
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.
+            AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 var app = builder.Build();
+
+string s = "A"; s += "B"; // Naya memory block banta hai
+Console.WriteLine($"string : {s}");
+StringBuilder sb = new StringBuilder("A"); sb.Append("B"); // Purane block mein hi add hota hai
+Console.WriteLine($"StringBuilder: {sb}");
 
 // Seed AspNetUsers
 using (var scope = app.Services.CreateScope())
@@ -101,10 +118,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
