@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\Dotnet\\ArchitectureNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.domain\\entities\\hl7message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D75EE74-85EA-4D6B-88E1-414950DEDCAF}|SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj|solutionrelative:suiterx.interface.domain\\entities\\hl7message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.application\\dto\\hl7messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF61B73-19DA-4CE1-ADD4-74DC9BE2F1DD}|SuiteRx.Interface.Application\\SuiteRx.Interface.Application.csproj|solutionrelative:suiterx.interface.application\\dto\\hl7messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|e:\\dotnet\\architecturenet\\suiterx.interface.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB343A9-D5D9-455F-8849-003A697EF808}|SuiteRx.Interface.Api\\SuiteRx.Interface.Api.csproj|solutionrelative:suiterx.interface.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,27 +87,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Hl7Message.cs",
-              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
-              "RelativeDocumentMoniker": "SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
-              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
-              "RelativeToolTip": "SuiteRx.Interface.Domain\\Entities\\Hl7Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SuiteRx.Interface.Api\\Program.cs",
+              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Api\\Program.cs",
+              "RelativeToolTip": "SuiteRx.Interface.Api\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T10:04:48.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HL7MessageDto.cs",
-              "DocumentMoniker": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
-              "RelativeDocumentMoniker": "SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
-              "ToolTip": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
-              "RelativeToolTip": "SuiteRx.Interface.Application\\Dto\\HL7MessageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T10:04:31.262Z",
+              "WhenOpened": "2026-02-22T04:36:25.531Z",
               "EditorCaption": ""
             }
           ]

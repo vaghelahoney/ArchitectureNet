@@ -1932,11 +1932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj",
+      "projectUniqueName": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj",
       "projectName": "SuiteRx.Interface.Domain",
-      "projectPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj",
+      "projectPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\SuiteRx.Interface.Domain.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\obj\\",
+      "outputPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2000,7 +2000,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

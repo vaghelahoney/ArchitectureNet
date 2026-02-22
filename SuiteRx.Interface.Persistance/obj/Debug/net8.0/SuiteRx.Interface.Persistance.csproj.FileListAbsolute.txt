@@ -56,3 +56,12 @@ E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx
 E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.dll
 E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\refint\SuiteRx.Interface.Persistance.dll
 E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.pdb
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Persistance.deps.json
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Persistance.runtimeconfig.json
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Persistance.dll
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Persistance.pdb
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Domain.dll
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\bin\Debug\net8.0\SuiteRx.Interface.Domain.pdb
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx..B49394D9.Up2Date
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\SuiteRx.Interface.Persistance.genruntimeconfig.cache
+e:\Dotnet\ArchitectureNet\SuiteRx.Interface.Persistance\obj\Debug\net8.0\ref\SuiteRx.Interface.Persistance.dll

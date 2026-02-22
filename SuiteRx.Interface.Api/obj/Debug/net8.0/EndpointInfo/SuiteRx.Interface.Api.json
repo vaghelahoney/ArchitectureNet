@@ -97,6 +97,11 @@
         "additionalProperties": false
       },
       "RegistrationDto": {
+        "required": [
+          "email",
+          "fullName",
+          "passwordHash"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -104,16 +109,17 @@
             "format": "int32"
           },
           "fullName": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "passwordHash": {
-            "type": "string",
-            "nullable": true
+            "minLength": 6,
+            "type": "string"
           },
           "phoneNumber": {
             "type": "string",

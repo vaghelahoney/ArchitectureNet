@@ -5857,11 +5857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
+      "projectUniqueName": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
       "projectName": "SuiteRx.Interface.Persistance",
-      "projectPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
+      "projectPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\obj\\",
+      "outputPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5943,7 +5943,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuiteRx.Interface.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c34d4e27dc18f10a133f41f318ebb26f8ba77eed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d85cfdda53ca523d5675cb25ea4bd1e8dcfda62")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuiteRx.Interface.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuiteRx.Interface.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
