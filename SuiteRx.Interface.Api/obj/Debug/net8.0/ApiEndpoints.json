@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.ClothesController",
+    "Method": "Delete",
+    "RelativePath": "api/Clothes/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.ClothesController",
+    "Method": "GetAllClothes",
+    "RelativePath": "api/Clothes/GetAllClothes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.ClothesController",
+    "Method": "GetById",
+    "RelativePath": "api/Clothes/GetClothesByIdAsync/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.ClothesController",
+    "Method": "Create",
+    "RelativePath": "api/Clothes/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SuiteRx.Interface.Application.Dto.ClothesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SuiteRx.Interface.Api.Controllers.ClothesController",
+    "Method": "Update",
+    "RelativePath": "api/Clothes/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SuiteRx.Interface.Application.Dto.ClothesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SuiteRx.Interface.Api.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/Login",
