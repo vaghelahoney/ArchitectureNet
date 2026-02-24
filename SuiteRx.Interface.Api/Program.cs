@@ -9,11 +9,31 @@ using SuiteRx.Interface.Persistance.Contexts;
 using SuiteRx.Interface.Persistance.Seeders;
 using System.Diagnostics;
 using System.Text;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers()
+    .ConfigureApiBehaviorOptions(options =>
+    {
+        options.InvalidModelStateResponseFactory = context =>
+        {
+            var errors = context.ModelState
+                .Where(e => e.Value.Errors.Count > 0)
+                .Select(e => new SuiteRx.Interface.Application.Common.Models.ValidationError
+                {
+                    Field = e.Key,
+                    Message = e.Value.Errors.First().ErrorMessage
+                }).ToList();
+
+            var response = SuiteRx.Interface.Application.Common.Models.ApiResponse<object>.ErrorResponse("Validation Failed", errors);
+
+            return new Microsoft.AspNetCore.Mvc.BadRequestObjectResult(response);
+        };
+    });
+
+builder.Services.AddFluentValidationAutoValidation();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddServices();
@@ -26,7 +46,6 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<PharmacyDBContext>()
     .AddDefaultTokenProviders();
 
-// JWT
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -47,26 +66,21 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Program.cs
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder =>
+    options.AddPolicy("AllowAngular",
+        policy =>
         {
-            builder.
-            AllowAnyOrigin()
-                   .AllowAnyMethod()
-                   .AllowAnyHeader();
+            policy
+                .WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
         });
 });
+
+
 var app = builder.Build();
-
-string s = "A"; s += "B"; // Naya memory block banta hai
-Console.WriteLine($"string : {s}");
-StringBuilder sb = new StringBuilder("A"); sb.Append("B"); // Purane block mein hi add hota hai
-Console.WriteLine($"StringBuilder: {sb}");
-
-// Seed AspNetUsers
+app.UseCors("AllowAngular");
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<PharmacyDBContext>();
@@ -111,7 +125,8 @@ using (var scope = app.Services.CreateScope())
     Console.WriteLine("=====================================\n");
 }
 
-// Configure the HTTP request pipeline.
+app.UseMiddleware<SuiteRx.Interface.Api.Middlewares.ExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

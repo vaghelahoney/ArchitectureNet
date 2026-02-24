@@ -22,6 +22,7 @@ namespace SuiteRx.Interface.Persistance.Contexts
         
 
         public DbSet<Registration> Registration { get; set; }
+        public DbSet<Clothes> Clothes { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
