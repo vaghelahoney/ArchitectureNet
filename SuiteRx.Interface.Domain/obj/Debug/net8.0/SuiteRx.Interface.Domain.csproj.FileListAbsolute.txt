@@ -34,3 +34,16 @@ E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Inter
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Domain\obj\Debug\net8.0\refint\SuiteRx.Interface.Domain.dll
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.pdb
 E:\Dotnet\SuiteRx.Interface.Rest_08_01_2025\SuiteRx.Interface.Rest\SuiteRx.Interface.Domain\obj\Debug\net8.0\ref\SuiteRx.Interface.Domain.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\bin\Debug\net8.0\SuiteRx.Interface.Domain.deps.json
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\bin\Debug\net8.0\SuiteRx.Interface.Domain.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\bin\Debug\net8.0\SuiteRx.Interface.Domain.pdb
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.csproj.AssemblyReference.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.AssemblyInfoInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.AssemblyInfo.cs
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.csproj.CoreCompileInputs.cache
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.sourcelink.json
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\refint\SuiteRx.Interface.Domain.dll
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\SuiteRx.Interface.Domain.pdb
+E:\Dotnet\ArchitectureNet\SuiteRx.Interface.Domain\obj\Debug\net8.0\ref\SuiteRx.Interface.Domain.dll

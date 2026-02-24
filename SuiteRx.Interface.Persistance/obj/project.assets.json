@@ -5857,11 +5857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
+      "projectUniqueName": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
       "projectName": "SuiteRx.Interface.Persistance",
-      "projectPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
+      "projectPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\SuiteRx.Interface.Persistance.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "e:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\obj\\",
+      "outputPath": "E:\\Dotnet\\ArchitectureNet\\SuiteRx.Interface.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
