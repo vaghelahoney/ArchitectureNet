@@ -22,14 +22,15 @@ namespace SuiteRx.Interface.Api.Controllers
             return Created(string.Empty, request);
         }
 
-        [HttpPost("GetAllClothes")]
+        [HttpGet("GetAllClothes")]
+
         public async Task<ActionResult> GetAllClothes()
         {
             var data = await _clothesService.GetAllClothesAsync();
             return Ok(data);
         }
 
-        [HttpGet("GetById/{id}")]
+        [HttpGet("GetClothesByIdAsync/{id}")]
         public async Task<ActionResult> GetById(int id)
         {
             var data = await _clothesService.GetClothesByIdAsync(id);

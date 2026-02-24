@@ -8,6 +8,7 @@ using SuiteRx.Interface.Persistance;
 using SuiteRx.Interface.Persistance.Contexts;
 using SuiteRx.Interface.Persistance.Seeders;
 using System.Text;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,9 @@ builder.Services.AddControllers()
             return new Microsoft.AspNetCore.Mvc.BadRequestObjectResult(response);
         };
     });
+
+builder.Services.AddFluentValidationAutoValidation();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -63,9 +67,21 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
 
 var app = builder.Build();
-
+app.UseCors("AllowAngular");
 // Seed AspNetUsers
 using (var scope = app.Services.CreateScope())
 {

@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using SuiteRx.Interface.Domain.Entities;
 using SuiteRx.Interface.Domain.Repositories;
 using SuiteRx.Interface.Persistance.Contexts;
@@ -13,13 +14,12 @@ namespace SuiteRx.Interface.Persistance.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<Clothes> CreateClothesAsync(Clothes request)
+        public async Task<Clothes?> CreateClothesAsync(Clothes request)
         {
             if (request != null)
             {
                 try
                 {
-                    request.CreatedAt = DateTime.UtcNow;
                     await _dbContext.Clothes.AddAsync(request);
                     _dbContext.SaveChanges();
                 }
@@ -33,7 +33,7 @@ namespace SuiteRx.Interface.Persistance.Repositories
 
         public async Task<List<Clothes>> GetAllClothesAsync()
         {
-            return await Task.FromResult(_dbContext.Clothes.ToList()); 
+            return await _dbContext.Clothes.AsNoTracking().ToListAsync();
         }
 
         public async Task<Clothes?> GetClothesByIdAsync(int id)
@@ -50,8 +50,7 @@ namespace SuiteRx.Interface.Persistance.Repositories
                 existing.Description = request.Description;
                 existing.Price = request.Price;
                 existing.Category = request.Category;
-                existing.StockQuantity = request.StockQuantity;
-                existing.IsAvailable = request.IsAvailable;
+                existing.Image = request.Image;
                 
                 _dbContext.Clothes.Update(existing);
                 await _dbContext.SaveChangesAsync();

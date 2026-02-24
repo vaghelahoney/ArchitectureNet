@@ -22,8 +22,7 @@ namespace SuiteRx.Interface.Application.Services.Impl
                 Description = request.Description,
                 Price = request.Price,
                 Category = request.Category,
-                StockQuantity = request.StockQuantity,
-                IsAvailable = request.IsAvailable
+                Image = request.Image,
             };
 
             await _clothesRepository.CreateClothesAsync(clothesEntity);
@@ -44,9 +43,7 @@ namespace SuiteRx.Interface.Application.Services.Impl
                     Description = item.Description,
                     Price = item.Price,
                     Category = item.Category,
-                    StockQuantity = item.StockQuantity,
-                    IsAvailable = item.IsAvailable,
-                    CreatedAt = item.CreatedAt
+                    Image = item.Image,
                 };
                 clothesList.Add(dto);
             }
@@ -66,9 +63,8 @@ namespace SuiteRx.Interface.Application.Services.Impl
                 Description = item.Description,
                 Price = item.Price,
                 Category = item.Category,
-                StockQuantity = item.StockQuantity,
-                IsAvailable = item.IsAvailable,
-                CreatedAt = item.CreatedAt
+                Image = item.Image,
+               
             };
         }
 
@@ -81,8 +77,7 @@ namespace SuiteRx.Interface.Application.Services.Impl
                 Description = request.Description,
                 Price = request.Price,
                 Category = request.Category,
-                StockQuantity = request.StockQuantity,
-                IsAvailable = request.IsAvailable
+                Image = request.Image,
             };
             return await _clothesRepository.UpdateClothesAsync(entity);
         }

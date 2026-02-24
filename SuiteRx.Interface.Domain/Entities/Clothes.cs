@@ -11,26 +11,21 @@ namespace SuiteRx.Interface.Domain.Entities
         [Column("id")]
         public int Id { get; set; }
 
+        [Required]
         [Column("name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Column("description")]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         [Column("price")]
         public decimal Price { get; set; }
 
         [Column("category")]
-        public string Category { get; set; }
+        public string? Category { get; set; }
 
-        [Column("stock_quantity")]
-        public int StockQuantity { get; set; }
-
-        [Column("is_available")]
-        public bool IsAvailable { get; set; }
-
-        [Column("created_at")]
-        public DateTime CreatedAt { get; set; }
+        [Column("image")]
+        public string? Image { get; set; }
 
     }
 }
