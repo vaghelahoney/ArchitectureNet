@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
@@ -23,6 +23,8 @@ namespace SuiteRx.Interface.Persistance.Contexts
 
         public DbSet<Registration> Registration { get; set; }
         public DbSet<Clothes> Clothes { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

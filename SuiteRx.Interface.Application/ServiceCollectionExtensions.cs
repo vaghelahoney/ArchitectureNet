@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using SuiteRx.Interface.Application.Services;
 using SuiteRx.Interface.Application.Services.Impl;
 using FluentValidation;
@@ -13,6 +13,8 @@ namespace SuiteRx.Interface.Application
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRegistrationService, RegistrationService>();
             services.AddScoped<IClothesService, ClothesService>();
+            services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IAddressService, AddressService>();
 
             // Register Validators
             services.AddValidatorsFromAssembly(System.Reflection.Assembly.GetExecutingAssembly());
