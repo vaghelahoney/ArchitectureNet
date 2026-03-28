@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SuiteRx.Interface.Domain;
 using SuiteRx.Interface.Domain.Repositories;
@@ -15,6 +15,8 @@ namespace SuiteRx.Interface.Persistance
             services.AddScoped<PharmacyDBContext>();
             services.AddScoped<IRegistrationRepository, RegistrationRepository>();
             services.AddScoped<IClothesRepository, ClothesRepository>();
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
             return services;
         }
     }
